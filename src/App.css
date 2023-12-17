@@ -1,0 +1,268 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://wallpaperaccess.com/full/856987.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.logosize {
+  width: 400px;
+  height: 200px;
+}
+
+#logocontainer {
+  align-self: center;
+  text-align: center;
+}
+
+.startingtext {
+  border: 2px solid #f99e1a;
+  border-radius: 10px;
+  width: 28vw;
+  padding-top: 7px;
+  background-color: #43484c;
+  font-size: 20px;
+  align-self: center;
+  margin: auto;
+}
+
+.startingtextstyle1 {
+  color: #f99e1a;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  text-align: center;
+}
+
+.startingtextstyle2 {
+  color: white;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.formcontainer {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.center {
+  text-align: center;
+  height: 50px;
+  width: 19vw;
+  background-color: #43484c;
+  color: orange;
+  border: 2px solid #f99e1a;
+  font-size: 20px;
+  align-items: center;
+}
+
+.sendsize {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: flex;
+  flex: 1;
+}
+
+.dropdown {
+  width: 21.5%;
+  color: #f99e1a;
+  background-color: #43484c;
+  display: flex;
+  flex-direction: column;
+  border: gray;
+  margin-top: -1.7vh;
+}
+
+.dropdown-content {
+  position: absolute;
+  background-color: #43484c;
+  z-index: 1;
+  width: 19.5vw;
+}
+
+.dropdown-row{
+  cursor: pointer;
+  text-align: center;
+  height: 7vh;
+  line-height: 7vh;
+}
+
+.notfound {
+  text-align: center;
+  height: 5vh;
+  line-height: 5vh;
+}
+
+.dropdown-row:hover {
+  background-color: #212226;
+}
+
+#bck {
+  background-color: #43484c;
+}
+
+#flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Guesslist {
+  text-align: center;
+  margin-top: 4vh;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#Guesslist {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+}
+
+
+.CategoreyOutline {
+  display: flex;
+  justify-content: center;
+  margin-top: 2vh;
+}
+
+.Categorey {
+  width: 7.87vw;
+  color: #f99e1a;
+  border-color: #f99e1a;
+  border: 2px solid #212226;
+  background-color: #43484c;
+}
+
+#Categorey2 {
+  width: 20vw;
+  color: black;
+  border-color: #f99e1a;
+  border: 2px solid #212226;
+}
+
+#Categorey3 {
+  width: 20vw;
+  color: #f99e1a;
+  border-color: #f99e1a;
+  border: 2px solid #212226;
+  background-color: #43484c;
+}
+
+.correct {
+  width: 7.87vw;
+  color: black;
+  border-color: #f99e1a;
+  border: 2px solid #212226;
+  background-color: green;
+  height: 8vh;
+  line-height: 8vh;
+}
+
+.wrong {
+  width: 7.87vw;
+  color: black;
+  border-color: #f99e1a;
+  border: 2px solid #212226;
+  background-color: red;
+  height: 8vh;
+  line-height: 8vh;
+}
+
+.modal {
+  background: rgba(255, 255, 255, 0.7);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.modal div {
+  max-width: 480px;
+  background: #43484c;
+  color: #f99e1a;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 10% auto;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.modal .solution{
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.VCTEXT {
+
+}
+
+tr {
+  display: flex;
+}
+
+#gap {
+  margin-top: 2vh;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  margin-top: 1.5vh;
+}
+
+.switchstyle {
+  border: 4px solid black;
+  width: 200px;
+  height: 50px;
+  margin-top: 2vh;
+  margin-right: 10vw;
+  margin-left: 10vw;
+  background: #43484c;
+  color: #f99e1a;
+  border-color: #f99e1a;
+  margin-bottom: 6vh;
+}
+
+.switchstyle2 {
+  border: 4px solid black;
+  width: 200px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6vh;
+  margin-right: 3vw;
+  margin-left: 3vw;
+  background: #43484c;
+  color: #f99e1a;
+  border-color: #f99e1a;
+  margin-bottom: 2vh;
+}
+
+#colourblack {
+  color:  #f99e1a;
+  margin-left: 0.5vw;
+}
+
+#skillsize {
+  align-self: center;
+  text-align: center;
+  font-size: 0
+}
